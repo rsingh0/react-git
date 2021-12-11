@@ -39,7 +39,7 @@ index.js
 # Step 8 Add webpack-dev-server dev dependency
 npm install -D webpack-dev-server
 
-# Step 8 Fire webpack Dev server
+# Step 8 Start webpack Dev server
 npm run start
 
 # Step 9 Add script for build in package.json
