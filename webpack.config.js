@@ -19,11 +19,15 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      { test: /\.tsx?$/, loader: "ts-loader" },
       {
         test: /\.scss$/,
         use: [MiniCSSExtractPlugin.loader, "css-loader", "sass-loader"],
       },
     ],
+  },
+  resolve: {
+    extensions: ["*", ".js", ".jsx", ".ts", ".tsx"],
   },
   plugins: [new MiniCSSExtractPlugin()],
 };

@@ -58,3 +58,11 @@ docker build -t rsingh141989/react-git:latest .
 
 # Step 15 run docker locally
 docker run -p 8080:443 rsingh141989/react-git:latest
+
+# Step 16 deploy image in Cloud run in GCp with CI/CD
+
+
+# Helpful Links
+https://www.youtube.com/watch?v=QliwSwWHJoQ&ab_channel=LachlanMiller
+https://www.youtube.com/watch?v=WDpxqopXd9U&ab_channel=JuniorDeveloperCentral
+https://www.youtube.com/watch?v=GIM5irN4Ix0&ab_channel=DylanGonzales
